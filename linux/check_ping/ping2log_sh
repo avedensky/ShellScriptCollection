@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# This script check ping and save result to file
+#
+# The main idea - copy past or quick modify with new logic
+#
+# To execute the script, do not forget to set permissions, (linux comand - chmod)
+
+
+# --- You Configuration ---
+
+# Set the required address
+CHECK_HOST="127.0.0.1"
+
+# or created environment variable with name CHECK_HOST 
+# and recomment string below
+#export CHECK_HOST
+
+# Set file name of loging file
+LOGFILE="/tmp/ping2log.log"
+
+# ---
+
+
+CURRENT_DATE=$(date +%Y\-%m\-%d\ %H\:%M\:%S)
+if ping -c 1 -s 1 -W 1 $CHECK_HOST > /dev/null 1>&1
+then
+
+	if [ ! -e $LOGFILE ]
+	then	
+		touch $LOGFILE		
+	fi		
+	echo "$CURRENT_DATE $CHECK_HOST - ping OK" >> $LOGFILE
+	echo "ping ok, log file is writed, you can find here $LOGFILE"
+else	
+	if [ ! -e $LOGFILE ]
+	then
+		touch $LOGFILE
+	fi
+	echo "$CURRENT_DATE $CHECK_HOST - ping NOT OK" >> $LOGFILE
+	echo "ping not ok, log file is writed, you can find here $LOGFILE"
+fi
+
