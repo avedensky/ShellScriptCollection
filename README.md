@@ -8,7 +8,7 @@ Several scripts that test host by ping and execute some logic:
 
 <a href="https://github.com/avedensky/ShellScriptCollection/blob/master/linux/check_ping/ping_sh">ping for linux</a><br>
 <a href="https://github.com/avedensky/ShellScriptCollection/blob/master/win/check_ping/ping.bat">ping for win</a><br>
-Shell scrips for windows and linux, check host by ping, and just show ok or not ok.<br>
+Shell scripts for windows and linux, check host by ping, and just show ok or not ok.<br>
 Very easy to add new logic, use this script as protoype.
 
 
