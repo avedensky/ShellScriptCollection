@@ -18,3 +18,9 @@ This is linux bash script, check host by ping, and write to log file with curren
 2017-06-14 20:45:02 126.0.0.1 - ping NOT OK<br>
 2017-06-14 20:45:18 127.0.0.1 - ping OK<br>
 
+<b>Mounting scripts</b><br>
+Several scripts for mounting net drive:
+
+<a href="https://github.com/avedensky/ShellScriptCollection/blob/master/win/mounting/mountnetdrive.bat">mount net drive for win</a><br>
+This script can mount net drive and run selected script after. Script tested on winXP.
+
