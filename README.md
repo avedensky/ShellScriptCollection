@@ -22,5 +22,5 @@ This is linux bash script, check host by ping, and write to log file with curren
 Several scripts for mounting net drive:
 
 <a href="https://github.com/avedensky/ShellScriptCollection/blob/master/win/mounting/mountnetdrive.bat">mount net drive for win</a><br>
-This script can mount net drive and run selected script after. Script tested on winXP.
+This script can mount net drive and run selected script after. Script has been tested on winXP.
 
