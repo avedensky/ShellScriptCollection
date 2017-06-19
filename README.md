@@ -30,6 +30,7 @@ Several scripts for auto arhiving
 <a href="https://github.com/avedensky/ShellScriptCollection/blob/master/linux/archive/2arhive.sh">2arhive_sh</a><br>
 This is linux bash script, which the arhiving your files use 7z archiver from console. You can set password to arhive, set prefix and suffix for arhive name. You can see current date in the arhive name<br>
 I use this script for auto arhiving some directory by cron tab.
+
 <br>For example: The name of arhive like this:<br>
 my_arhive-2017_06_17-04_58_34-dos.7z<br>
 
