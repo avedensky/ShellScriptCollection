@@ -12,7 +12,7 @@ Shell scripts for windows and linux, check host by ping, and just show ok or not
 Very easy to add new logic, use this script as protoype.
 
 
-<a href="https://github.com/avedensky/ShellScriptCollection/blob/master/linux/check_ping/ping2log_sh">ping2log_sh</a><br>
+<a href="https://github.com/avedensky/ShellScriptCollection/blob/master/linux/check_ping/ping2log_sh">ping2log</a><br>
 This is linux bash script, check host by ping, and write to log file with current date.<br>
 <br>For example, part of log file:<br>
 2017-06-14 20:45:02 126.0.0.1 - ping NOT OK<br>
