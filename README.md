@@ -34,7 +34,7 @@ I use this script for auto arhiving some directory by cron tab.
 <br>For example: The name of arhive like this:<br>
 my_arhive-2017_06_17-04_58_34-dos.7z<br>
 
-a href="https://github.com/avedensky/ShellScriptCollection/blob/master/linux/encoding/enc2UTF8.sh">2enc2UTF8</a><br>
+<a href="https://github.com/avedensky/ShellScriptCollection/blob/master/linux/encoding/enc2UTF8.sh">2enc2UTF8</a><br>
 Automatical coding recognize and encoding to UTF-8, for example win1252 text to UTF-8.
 <br>
 
